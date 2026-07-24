@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/instalar/sw.js"
+  [headers.values]
+    Service-Worker-Allowed = "/"

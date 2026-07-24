@@ -1,0 +1,12 @@
+{
+  "name": "servipailon",
+  "version": "1.0.0",
+  "description": "Plataforma web para registrar y contratar profesionales",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y http-server -p 3000"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
