@@ -866,7 +866,7 @@ class App {
                 this.renderAll();
             } else {
                 const password = prompt('Ingrese la contraseña de Administrador:');
-                if (password === 'admin123') {
+                if (password === 'jluis123') {
                     this.isAdmin = true;
                     adminBtnText.textContent = 'Cerrar Admin';
                     document.getElementById('openProModalBtn').style.display = 'inline-flex';
@@ -940,5 +940,5 @@ class App {
 // INICIALIZACIÓN DE LA PLATAFORMA PANDATASKER (FRIENDLY UI)
 // ============================================================================
 document.addEventListener('DOMContentLoaded', () => {
-    window.pandaTaskerApp = new App();
+    window.ServiPailonApp = new App();
 });
